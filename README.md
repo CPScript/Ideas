@@ -17,7 +17,7 @@ fetch('yourPageUrl')
    .catch((error) => console.error('Error:', error));
 ```
 
-Next, we parse the HTML and look for the questions. Assuming the questions are inside <p> tags and the options are inside <ul> tags, we could do something like this:
+Next, we parse the HTML and look for the questions. Assuming the questions are inside `<p>` tags and the options are inside `<ul>` tags, we could do something like this:
 
 ```
 let questions = Array.from(doc.querySelectorAll('p'));
