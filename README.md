@@ -1,4 +1,4 @@
-# Ideas  
+# Stupid Ideas: 
 
 ---
 
